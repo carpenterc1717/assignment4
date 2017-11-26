@@ -1,5 +1,5 @@
 # assignment4
-- [Question 1.1](q1.1.txt)
+- [Question 1.1](assignment4/q1.1.txt)
 - [Question 1.2](q1.2.txt)
 - [Question 1.3](q1.3.txt)
 - [Question 2.1](q2.1.txt)
