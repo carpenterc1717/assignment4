@@ -1,1 +1,10 @@
-# q 2.3
+# Question 2.3
+import matplotlib.pyplot as plt
+import scipy.stats as st
+rlSkew =(st.skew(df1['Review Length']))
+arSkew=(st.skew(df1['Automated Readability Index']))
+rlKurt=(st.kurtosis(df1['Review Length']))
+arKurt= (st.kurtosis(df['Automated Readability Index']))
+
+print("The Skew of Review Length is: ", rlSkew, "\n", "The Skew of Automated Readability Index is: ", arSkew, "\n", "The Kurtosis score of Review Length is: ", rlKurt, '\n', "The Kurtosis Score for Automated Review Index is: ", arKurt)
+
