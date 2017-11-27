@@ -1,8 +1,11 @@
+
+
 q2.2
+
 
 import pandas as pd
 import matplotlib.pyplot as plt
-##First histogram
+
 Mdf=pd.read_csv('Assignment_4.csv')
 
 plt.hist(Mdf['Review Length'], bins = [0, 50, 100, 150, 200, 250, 300, 350, 400, 450],  color = (0.5,0.5,0.5))
@@ -10,9 +13,25 @@ plt.title('Review Length')
 plt.xlabel('Price')
 plt.ylabel('Frequency')
 plt.show()
-##Second histogram
-plt.hist(Mdf['Automated Readability Index'], bins = [0, 50, 100, 150, 200, 250, 300, 350, 400, 450],  color = (0.5,0.5,0.5))
+
+
+
+# Type the program for section 2.2 here (Continued):
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+Mdf=pd.read_csv('Assignment_4.csv')
+# Code for Automated Readability Index Histogram:
+
+plt.hist(Mdf['Automated Readability Index'], bins ='auto',histtype='stepfilled', color = 'r')
 plt.title('Review Length')
 plt.xlabel('Price')
 plt.ylabel('Frequency')
-plt.show()
+plt.show()# Type the program for section 2.2 here:
+
+# Code for Review Length Histogram:
+
+
+
+
