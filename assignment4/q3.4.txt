@@ -1,1 +1,4 @@
 # q3.4
+# Write your answer for section 3.4 here:
+# Based on the scatterplot, there seems to be an inverse relationship between the length of the review and the amount
+# of votes it received.
