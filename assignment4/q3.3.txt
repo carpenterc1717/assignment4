@@ -1,1 +1,6 @@
 # 3.3
+plt.scatter(df1['Review Length', df1['Review Votes'], color='m', marker = '+'])
+plt.title('Amazon Review Lengths and Votes Scatter Plot')
+plt.xlable('Review Length')
+plt.ylable('Review Votes')
+plt.show()
