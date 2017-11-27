@@ -1,14 +1,10 @@
-#Question 2
 import pandas as pd
-df = pd.read_csv('ass4_data.csv')
-
+df = pd.read_csv('testbook.csv')
 # Printing the first 10 rows of data
 print(df[0:11])
-
 # Printing the last 10 rows of data
 print(df[-10:])
-
 #sorts data by brand and price in ascending order
-df.sort_values(by = ['Brand', 'Price'],ascending=[True,False])
+df.sort_values(by = ['Brand Name', 'Price'],ascending=[True,False])
 df.columns[df.isnull().any()]
                      
