@@ -10,4 +10,5 @@ print(df[-10:])
 
 #sorts data by brand and price in ascending order
 df.sort_values(by = ['Brand', 'Price'],ascending=[True,False])
+df.columns[df.isnull().any()]
                      
