@@ -1,1 +1,2 @@
-# q 3.1
+# q 3.
+df1.pivot_table(values = ['Price', 'Review Length'], index = 'Brand Name', aggfunc=np.mean)
